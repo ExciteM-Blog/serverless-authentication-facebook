@@ -7,3 +7,5 @@ pids
 *.seed
 
 node_modules
+
+lib

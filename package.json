@@ -1,11 +1,11 @@
 {
   "name": "serverless-authentication-facebook",
-  "version": "1.0.0",
+  "version": "0.6.0",
   "description": "Facebook module for Serverless Authentication",
   "main": "lib/index.js",
   "license": "MIT",
   "private": false,
-  "author": "Eetu Tuomala <eetu.tuomala@sc5.io>",
+  "author": "Eetu Tuomala (https://laardee.com)",
   "keywords": [
     "serverless",
     "aws",
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "request": "^2.88.0",
-    "serverless-authentication": "^1.0.0"
+    "serverless-authentication": "^0.6.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

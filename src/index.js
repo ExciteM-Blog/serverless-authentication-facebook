@@ -25,14 +25,14 @@ class FacebookProvider extends Provider {
 
   callbackHandler(event) {
     const options = {
-      authorization_uri: 'https://graph.facebook.com/v2.3/oauth/access_token',
+      authorization_uri: 'https://graph.facebook.com/v2.9/oauth/access_token',
       profile_uri: 'https://graph.facebook.com/me',
       profileMap: mapProfile,
       authorizationMethod: 'GET'
     }
 
     return super.callback(event, options, {
-      profile: { fields: 'id,name,picture,email' }
+      profile: { fields: 'id,name,picture,email,age_range' }
     })
   }
 }

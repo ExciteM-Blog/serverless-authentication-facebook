@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/laardee/serverless-authentication-facebook"
+    "url": "https://github.com/ExciteM-Blog/serverless-authentication-facebook"
   },
   "dependencies": {
     "request": "^2.88.0",

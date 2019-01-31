@@ -33,4 +33,5 @@ admin.env
 
 _meta
 
+src/
 .babelrc
